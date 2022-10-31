@@ -24,6 +24,11 @@ const router = createRouter({
       name: "tables",
       component: () => import("../views/ListView.vue"),
     },
+    {
+      path: "/:markEmpty(.*)",
+      name: "404",
+      component: () => import("../views/NotFound.vue"),
+    },
   ],
 });
 
