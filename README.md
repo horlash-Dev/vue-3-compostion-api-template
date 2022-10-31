@@ -1,4 +1,4 @@
-# vueSetup
+# vue 3 Template
 
 ## p.s. i converted html template into vue js template using vue 3 composition api and other cool features.
 
